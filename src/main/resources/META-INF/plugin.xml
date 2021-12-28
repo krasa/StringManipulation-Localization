@@ -1,18 +1,16 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.krasa.stringmanipulationlocalization</id>
-    <name>StringManipulation-Localization</name>
-    <vendor>krasa</vendor>
+    <id>StringManipulationLocalization</id>
+    <name>String Manipulation - Localization</name>
+    <vendor email="vojta.krasa@gmail.com">Vojtech Krasa</vendor>
 
     <depends>com.intellij.modules.platform</depends>
+    <depends>String Manipulation</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.krasa.stringmanipulationlocalization.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.krasa.stringmanipulationlocalization.services.MyProjectService"/>
+        <languageBundle/>
     </extensions>
 
     <applicationListeners>
-        <listener class="com.github.krasa.stringmanipulationlocalization.listeners.MyProjectManagerListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
 </idea-plugin>

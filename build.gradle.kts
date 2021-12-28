@@ -49,6 +49,29 @@ qodana {
 }
 
 tasks {
+    prepareSandbox {
+        doLast {
+//            copy {
+//                from("C:/JetBrains/apps/IDEA-U/ch-1/213.6461.48.plugins") {
+//                    into ("./build/idea-sandbox/plugins/")
+//                }
+//            }
+            copy {
+                from(file("D:/JetBrains/apps/IDEA-U/ch-1/213.6461.48.plugins"))
+                into(file("./build/idea-sandbox/plugins/"))
+            }
+        }
+
+    }
+    buildSearchableOptions {
+        enabled = false
+    }
+
+    runIde {
+//        TODO does not work, edit the Run Configuration
+//        jvmArgs("-Duser.country=cn -Duser.language=zh")
+    }
+
     // Set the JVM compatibility versions
     properties("javaVersion").let {
         withType<JavaCompile> {
