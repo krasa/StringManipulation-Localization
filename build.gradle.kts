@@ -51,14 +51,13 @@ qodana {
 tasks {
     prepareSandbox {
         doLast {
-//            copy {
-//                from("C:/JetBrains/apps/IDEA-U/ch-1/213.6461.48.plugins") {
-//                    into ("./build/idea-sandbox/plugins/")
-//                }
-//            }
-            copy {
-                from(file("D:/JetBrains/apps/IDEA-U/ch-1/213.6461.48.plugins"))
-                into(file("./build/idea-sandbox/plugins/"))
+            try {
+                copy {
+                    from(file("D:/JetBrains/apps/IDEA-U/ch-1/213.6461.48.plugins"))
+                    into(file("./build/idea-sandbox/plugins/"))
+                }
+            } catch (e: Exception) {
+                System.err.println(e)
             }
         }
 
