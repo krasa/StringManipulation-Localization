@@ -4,7 +4,7 @@
 
 ## [Unreleased]
 
+## [8.24.0]
 ### Added
-
 - Chinese translation
 
