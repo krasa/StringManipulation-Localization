@@ -1,8 +1,8 @@
 # StringManipulation-Localization
 
 ![Build](https://github.com/krasa/StringManipulation-Localization/workflows/Build/badge.svg)
-[![Version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/18291)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/18291)
+[![Version](https://img.shields.io/jetbrains/plugin/v/18291.svg)](https://plugins.jetbrains.com/plugin/18291)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/18291.svg)](https://plugins.jetbrains.com/plugin/18291)
 
 ## Template ToDo list
 - [x] Create a new [IntelliJ Platform Plugin Template][template] project.
