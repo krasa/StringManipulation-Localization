@@ -7,6 +7,8 @@
     <depends>com.intellij.modules.platform</depends>
     <depends>String Manipulation</depends>
 
+    <locale>zh</locale>
+
     <extensions defaultExtensionNs="com.intellij">
         <languageBundle/>
     </extensions>
