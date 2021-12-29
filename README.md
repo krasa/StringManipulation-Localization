@@ -4,13 +4,6 @@
 [![Version](https://img.shields.io/jetbrains/plugin/v/18291.svg)](https://plugins.jetbrains.com/plugin/18291)
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/18291.svg)](https://plugins.jetbrains.com/plugin/18291)
 
-## Template ToDo list
-- [x] Create a new [IntelliJ Platform Plugin Template][template] project.
-- [ ] Get familiar with the [template documentation][template].
-- [ ] Set the Plugin ID in the above README badges.
-- [ ] Set the [Deployment Token](https://plugins.jetbrains.com/docs/marketplace/plugin-upload.html).
-- [ ] Click the <kbd>Watch</kbd> button on the top of the [IntelliJ Platform Plugin Template][template] to be notified about releases containing new features and fixes.
-
 <!-- Plugin description -->
 Chinese localization for  [String Manipulation](https://plugins.jetbrains.com/plugin/2162-string-manipulation/) plugin.
 <!-- Plugin description end -->
