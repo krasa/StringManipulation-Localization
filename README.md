@@ -1,4 +1,4 @@
-# StringManipulation-Localization
+# String Manipulation - Localization
 
 ![Build](https://github.com/krasa/StringManipulation-Localization/workflows/Build/badge.svg)
 [![Version](https://img.shields.io/jetbrains/plugin/v/18291.svg)](https://plugins.jetbrains.com/plugin/18291)
