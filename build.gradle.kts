@@ -50,16 +50,6 @@ qodana {
 
 tasks {
     prepareSandbox {
-        doLast {
-            try {
-                copy {
-                    from(file("D:/JetBrains/apps/IDEA-U/ch-1/213.6461.48.plugins/StringManipulation"))
-                    into(file("./build/idea-sandbox/plugins/StringManipulation"))
-                }
-            } catch (e: Exception) {
-                System.err.println(e)
-            }
-        }
 
     }
     buildSearchableOptions {
